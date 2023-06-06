@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <!--
+      Snowpack will replace / with the value you have for `baseUrl` in `snowpack.config.js`.
+      Make sure to update it with your GitHub Page URL. https://<your-username>.github.io/<your-repo-name>
+
+      More about config options:
+      - https://www.snowpack.dev/reference/configuration#buildoptions.baseurl
+    -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/_dist_/index.css"
+    />
+    <title>Snowpack & Tailwind App</title>
+  </head>
+  <body>
+    <!--
+      This HTML file is a template.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+
+      Start modyfing from here.
+    -->
+    <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
+        >
+          Manipulación del DOM
+        </p>
+        <h3
+          class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl sm:leading-10"
+        >
+          Aguacates
+        </h3>
+        <button id="dark-mode-button" class="mt-4 mb-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Modo Nocturno</button>
+
+        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
+          Welcome to Avocados, La Tiendita, pásele and buy deliciosos avocados
+        </p>
+        <div id="js-mount" class="mt-10 grid grid-cols-2 gap-2"></div>
+      </div>
+    </div>
+    <footer class="text-center mt-4 p-6 text-sm text-gray-500">
+      <p>
+        Powered by
+        Teacher by <a href="https://twitter.com/jonalvarezz">@jonalvarezz</a> for
+                  <a href="https://twitter.com/platzi">@platzi</a>
+                  <br>
+        Studied by Edgar Daniel Jaimes <a href="https://twitter.com/daniel_jher">@daniel_jher</a>
+
+      </p>
+    </footer>
+
+    <!-- Add more scripts here -->
+    <script type="module" src="/_dist_/index.js"></script>
+  </body>
+</html>
