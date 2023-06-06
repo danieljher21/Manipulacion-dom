@@ -1,0 +1,35 @@
+@import 'tailwindcss/dist/base.css';
+@import 'tailwindcss/dist/components.css';
+@import 'tailwindcss/dist/utilities.css';
+
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+  }
+  
+  body.dark-mode .bg-white {
+    background-color: #333;
+  }
+  
+  body.dark-mode .text-gray-600 {
+    color: #999;
+  }
+  body.dark-mode h3 {
+    color: #f1f1f1;
+  }
+  body.dark-mode .text-indigo-600 {
+    color: rgb(234 88 12);
+  }
+
+body.dark-mode .card:hover{
+    background-color: rgb(55 65 81);
+}   
+
+body.dark-mode #dark-mode-button {
+    background-color: rgb(234 88 12);
+}
+
+body.dark-mode #dark-mode-button:hover{
+    background-color: rgb(67 20 7)
+}
