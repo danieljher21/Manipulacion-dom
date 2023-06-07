@@ -31,7 +31,7 @@ npm start
 npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
 
 # Enable Prettier on git-commit
-cd my-app
+cd manipulacion-dom
 yarn install:husky
 ```
 
